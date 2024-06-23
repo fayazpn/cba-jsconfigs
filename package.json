@@ -1,8 +1,16 @@
 {
   "name": "js-configs",
+  "private": true,
   "version": "1.0.0",
   "license": "MIT",
+  "description": "Code convention tools.",
+  "author": {
+    "name": "CBA"
+  },
   "workspaces": [
 "packages/*"
-  ]
+  ],
+  "scripts": {
+    "lint": "yarn workspaces run lint"
+  }
 }
